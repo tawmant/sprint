@@ -1,0 +1,6 @@
+.header {
+    &__link::hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+}
