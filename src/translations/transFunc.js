@@ -24,9 +24,11 @@ i18n
     fallbackLng: 'en',
     debug: true,
 
+    react: {
+      useSuspense: false
+    },
     resources: Lang,
     interpolation: {
-      escapeValue: false, // not needed for react!!
     },
 
     // react i18next special options (optional)

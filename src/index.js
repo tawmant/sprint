@@ -14,15 +14,13 @@ const restoService = new RestoService();
 
 ReactDOM.render(
     <Provider store={store}>
-        <ErrorBoundry>
             <RestoServiceContext.Provider value={restoService}>
                 <Router>
                     <I18nextProvider i18n={transFunc}>
-                      <App/>
+                        <App/>
                     </I18nextProvider>
                 </Router>
             </RestoServiceContext.Provider>
-        </ErrorBoundry>
     </Provider>
     , document.getElementById('root')
 );
