@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next';
-import IconButton from '@material-ui/core/IconButton'
+import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import {AppBar, Toolbar, Container, Typography, Button, Box} from '@material-ui/core'
+import {AppBar, Toolbar, Container, Typography, Button, Box} from '@material-ui/core';
 import {Link} from 'react-router-dom';
 
 import './_app-header.scss';
