@@ -1,6 +1,8 @@
+@import "../global";
 .header {
     &__link::hover {
         text-decoration: underline;
         color: #fff;
+        padding: 100px;
     }
 }

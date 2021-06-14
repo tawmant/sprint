@@ -48,7 +48,7 @@ const AppHeader = () => {
     };
 
     return (
-        <>
+        < >
 
             <IconButton aria-label="menu" className={classes.menuButton}>
                 <MenuIcon />
