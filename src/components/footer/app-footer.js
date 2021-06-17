@@ -7,8 +7,8 @@ function AppFooter() {
   const {t} = useTranslation()
 
     return (
-    <footer className="footer">
-      <div className="container">
+    <footer >
+      {/* <div className="container">
         <div className="row">
         <div className="col-1"></div>
           <div className="col-4">
@@ -21,7 +21,7 @@ function AppFooter() {
           <div className="col-4"></div>
         </div>
 
-      </div>
+      </div> */}
     </footer>
     );
   }

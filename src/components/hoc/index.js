@@ -1,3 +1,3 @@
-import WithRestoService from './with-resto-service';
+import WithService from './with-service';
 
-export default WithRestoService;
+export default WithService;
