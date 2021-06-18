@@ -2,7 +2,7 @@ import "../../index";
 // import { useTranslation } from 'react-i18next';
 import React from "react";
 import AppHeader from '../app-header/app-header';
-import { mainPage } from '../pages/index';
+import { MainPage } from '../pages/index';
 import AppFooter from '../footer/app-footer';
 import { Route, Switch } from "react-router-dom";
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <AppHeader/>
       <Switch>
-        <Route exact path="/" component={mainPage} />
+        <Route exact path="/" component={MainPage} />
         {/* <Route path="/" component={   } />
         <Route path="/" component={   } />
         <Route path="/" component={   } />

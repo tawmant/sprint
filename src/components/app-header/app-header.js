@@ -49,7 +49,6 @@ const AppHeader = () => {
                         </nav>
                     </div>
                 </div>
-
             </header>
         </>
     )
