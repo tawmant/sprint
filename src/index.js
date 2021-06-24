@@ -14,6 +14,7 @@ const service = new Service();
 
 ReactDOM.render(
     <Provider store={store}>
+        <ErrorBoundry>
             <ServiceContext.Provider value={service}>
                 <Router>
                     <I18nextProvider i18n={transFunc}>
@@ -21,6 +22,7 @@ ReactDOM.render(
                     </I18nextProvider>
                 </Router>
             </ServiceContext.Provider>
+        </ErrorBoundry>
     </Provider>
     , document.getElementById('root')
 );

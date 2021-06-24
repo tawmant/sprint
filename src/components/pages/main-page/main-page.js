@@ -6,9 +6,11 @@ import './_main-page.scss'
 
 const MainPage = () => {
     return (
-        <div className='w-50'>
-            {/* <Slider/> */}
-            <News/>
+        <div className='main'>
+            <div className='main__container'>
+                <Slider/>
+                <News/>
+            </div>
         </div>
     )
 }

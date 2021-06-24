@@ -11,18 +11,16 @@ const reducer = (state = initialState, action) => {
                 ...state,
                 news: action.payload,
                 loading: false,
-                error: false
             };
         case 'NEWS_REQUESTED':
             return {
                 ...state,
-                news: state.news,
                 loading: true
             };
         case 'NEWS_ERROR':
             return {
                 ...state,
-                news: state.news,
+                loading: false,
                 error: true
             };
         default: 

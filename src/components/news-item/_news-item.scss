@@ -1,1 +1,30 @@
 @import '../global';
+
+.news {
+    img {
+        width: 100%;
+        max-width: 160px;
+    }
+    &__item {
+        padding: 10px;    
+        display: flex;   
+        margin: 15px 0;
+        box-shadow: 7px 6px 31px 3px rgba(0,0,0,0.92);
+        background: #fff;
+    }
+    &__img {
+        padding: 10px;    
+    }
+    &__title {
+        color: #660000;
+        font-size: 25px; 
+        margin-bottom: 7px;
+    }
+    &__title span:hover {
+        border-bottom: 1px solid #800000;   
+    }
+
+    .btn-danger {
+        background: #660000;
+    }
+}

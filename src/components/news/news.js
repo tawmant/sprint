@@ -8,7 +8,9 @@ import {
     newsLoaded,
     newsRequested,
     newsError
-} from '../../actions/actions'
+} from '../../redux/actions/actions'
+
+import './_news.scss';
 
 const News = ({Service}) => {
     const dispatch = useDispatch();

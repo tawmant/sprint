@@ -14,8 +14,6 @@ const Lang = {
     'en': {translation: langEn},
 };
 
-// export const getCurrentLanguage = () => localStorage.getItem('lang') ? localStorage.getItem('lang') : 'kg';
-
 i18n
   .use(Backend)
   .use(LanguageDetector)
@@ -45,6 +43,5 @@ i18n
     */
   });
 
-// localStorage.setItem('lang', getCurrentLanguage())
 export default i18n;
 

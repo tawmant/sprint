@@ -6,6 +6,7 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
+import {Link} from 'react-router-dom'
 
 const items = [
   {
@@ -53,9 +54,13 @@ const Slider = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        <Link to=''>
+          <img src={item.src} alt={item.altText} />
+          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        </Link>
+
       </CarouselItem>
+
     );
   });
 
