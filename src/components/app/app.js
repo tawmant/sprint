@@ -2,7 +2,7 @@ import "../../index";
 // import { useTranslation } from 'react-i18next';
 import React from "react";
 import AppHeader from '../app-header/app-header';
-import { MainPage } from '../pages/index';
+import { MainPage, SprintPage, ITPage, StudentPage, GalleryPage, } from '../pages/index';
 import AppFooter from '../footer/app-footer';
 import { Route, Switch } from "react-router-dom";
 function App() {
@@ -12,11 +12,12 @@ function App() {
     <div className="App">
       <AppHeader/>
       <Switch>
-        <Route exact path="/" component={MainPage} />
-        {/* <Route path="/" component={   } />
-        <Route path="/" component={   } />
-        <Route path="/" component={   } />
-        <Route path="/contact" component={ Contact } /> */}
+        <Route exact path="/" component={ MainPage } />
+        <Route path="/sprint" component={ SprintPage } />
+        <Route path="/IT" component={ ITPage } />
+        <Route path="/student" component={ StudentPage } />
+        <Route path="/gallery" component={ GalleryPage } />
+        {/* <Route path="/contact" component={ Contact } /> */}
       </Switch>
       <AppFooter/>
     </div>

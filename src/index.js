@@ -9,6 +9,9 @@ import ServiceContext from './components/service-context';
 import store from './store';
 import { I18nextProvider } from 'react-i18next';
 import transFunc from './translations/transFunc';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 const service = new Service();
 

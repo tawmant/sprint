@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import eng from './united-states.svg';
 import rus from './russia.svg';
 import kgn from './kyrgyzstan.svg';
+import logo from '../../assest/img/logo__footer.svg'
 
 import './_app-header.scss';
 
@@ -22,10 +23,12 @@ const AppHeader = () => {
     return (
         <>
             <header className='header'>
-                <div className='header__container'>
+                <div className='container'>
                     <div className='header__top'>
                         <div className='header__top-left'>
-                            <h2>logo</h2>
+                            <a href="#">
+                                <img className="header__logo" src={logo}/>
+                            </a>
                         </div>
                         <div className='header__top-right'>
                             <div className='header__lang'>
@@ -44,8 +47,11 @@ const AppHeader = () => {
                     <div className='header__bottom'>
                         <nav className='header__nav'>
                             <Link to='/' className='header__link'>{t('header.main')}</Link>
-                            <Link to='/' className='header__link'>{t('header.main')}</Link>
-                            <Link to='/' className='header__link'>{t('header.main')}</Link>
+                            <Link to='/sprint' className='header__link'>{t('sprint')}</Link>
+                            <Link to='/IT' className='header__link'>{t('IT')}</Link>
+                            <Link to='/student' className='header__link'>{t('student')}</Link>
+                            <Link to='/gallery' className='header__link'>{t('gallery')}</Link>
+                            <Link to='/contact' className='header__link'>{t('contact')}</Link>
                         </nav>
                     </div>
                 </div>

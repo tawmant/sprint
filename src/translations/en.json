@@ -1,4 +1,14 @@
 {
     "header.main": "Main Page",
-    "footer.title": "atet"
+    "IT": "IT Program",
+    "sprint": "SPRINT program",
+    "student": "Student program",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "name": "Taiwan Fund for Children and Families",
+    "address": "Kyrgyzstan, Bishkek st. Yudakhina 65./st. Gagarin",
+    "phone": "Telephone:",
+    "days": "Monday-Friday: 8:00–17:00",
+    "lunch": "Lunch from 12:00 to 13:00"
+
 }
